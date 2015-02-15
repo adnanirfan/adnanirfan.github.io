@@ -1,0 +1,159 @@
+body{
+    width: 800px;
+    margin-left: auto ;
+    margin-right: auto;
+    font-family: 'Helvetica', sans-serif;
+}
+.clearboth{
+    clear: both;
+}
+
+/********************Header*******************/
+#logo{
+    float: left;
+    width: 50%;
+}
+
+#logo h2{
+    display: inline-block;
+}
+
+
+#signup{
+    float: right;
+    padding-top: 50px;
+    width: 50%;
+}
+#right{
+    float: right;
+}
+#right span{
+    float: left;
+    margin-left: 10px;
+}
+#acc-pic{
+    font-style: normal;
+    background: url("pictures.png");
+    width: 21px;
+    height: 20px;
+    background-position: -71px -334px;
+    /*color: navy;*/
+}
+#sub-pic{
+    background: url("pictures.png");
+    width: 21px;
+    height: 20px;
+    background-position: -183px -249px;
+}
+#ac-text {
+    font-size: 20px;
+    color: #2b66be;
+}
+#sub-text{
+    font-size: 20px;
+    color: #86be53;
+}
+#sub-text:hover{
+    background-color: #86be53;
+    color: #fff;
+}
+#ac-text:hover{
+    color: #86be53;
+}
+
+/********************Search*******************/
+#search{
+    background-color: #b1cfda;
+    height: 70px;
+    border-radius: 10px;
+}
+#ser-pic{
+    background: url("pictures.png");
+    background-position: -183px -249px;
+    background-color: #000;
+    width: 21px;
+    height: 20px;
+}
+#sel {
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-left: 18px;
+    height: 50px;
+    width: 250px;
+    border-color: #ffffff;
+    border-width: 5px;
+}
+.SearchBox{
+    border-radius: 5px;
+    margin-left: 18px;
+    height: 50px;
+    width: 310px;
+    border-color: #ffffff;
+    border-width: 3px;
+}
+#SearchButtonImg {
+    background: url("pictures.png");
+    background-position: -30px 0px;
+    width: 21px;
+    height: 20px;
+}
+#SearchButton{
+    margin-left: 18px;
+    height: 50px;
+    width: 100px;
+    border-width: 5px;
+    border-color: #ffffff;
+    border-radius: 5px;
+    background-color: #2965be;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/********************Content*******************/
+
+
+
+/********************Footer*******************/
+
+#logoFooter{
+    background: url("logo1.png");
+    background-position: -85px -85px;
+    width: 85px;
+    height: 85px;
+}
+li{
+    list-style: none;
+}
+li>a{
+    color: #636363;
+}
+#logoFooter{
+    float: left;
+    margin-top: 10px;
+}
+#F1 {
+    float: left;
+    padding-left: 30px;
+}
+#F2 {
+    float: left;
+    padding-left: 30px;
+}
+#F3 {
+    float: left;
+    padding-left: 30px;
+}
+#F4{
+    float: right;
+    margin-top: 20px;
+}
+
+#HideParaPic {
+    background: url("pictures.png");
+    width: 9px;
+    height: 6px;
+    background-position: -276px -13px;
+}
+#HidePara{
+    visibility: hidden;
+}
