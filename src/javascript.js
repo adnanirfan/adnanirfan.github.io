@@ -33,26 +33,26 @@ function clicked(ob){
 }
 
 function check(obj){
-    if(i1.innerHTML==i2.innerHTML && i2.innerHTML==i3.innerHTML && i3.innerHTML==i1.innerHTML){
-        alert("Player " + user + " Wins  1");
+    if(i1.innerHTML==i2.innerHTML && i2.innerHTML==i3.innerHTML && i3.innerHTML==i1.innerHTML && i1.innerHTML!="-"){
+        alert("Player " + (user + 1) + " Wins  1");
     }else if(i1.innerHTML==i5.innerHTML && i5.innerHTML==i9.innerHTML && i9.innerHTML==i1.innerHTML && i1.innerHTML!="-"){
-        alert("Player " + user + " Wins  2");
+        alert("Player " + (user + 1) + " Wins  2");
     }else if(i1.innerHTML==i4.innerHTML && i4.innerHTML==i7.innerHTML && i7.innerHTML==i1.innerHTML && i1.innerHTML!="-"){
-        alert("Player " + user + " Wins  3");
+        alert("Player " + (user + 1) + " Wins  3");
     }
 
     else if(i2.innerHTML==i5.innerHTML && i5.innerHTML==i8.innerHTML && i8.innerHTML==i2.innerHTML && i2.innerHTML!="-"){
-        alert("Player " + user + " Wins  4");
+        alert("Player " + (user + 1) + " Wins  4");
     }
     else if(i3.innerHTML==i6.innerHTML && i6.innerHTML==i9.innerHTML && i9.innerHTML==i3.innerHTML && i3.innerHTML!="-"){
-        alert("Player " + user + " Wins  4");
+        alert("Player " + (user + 1) + " Wins  4");
     }
 
     else if(i4.innerHTML==i5.innerHTML && i5.innerHTML==i6.innerHTML && i6.innerHTML==i4.innerHTML && i4.innerHTML!="-"){
-        alert("Player " + user + " Wins  5");
+        alert("Player " + (user + 1) + " Wins  5");
     }
-    else if(i7.innerHTML==i8.innerHTML && i8.innerHTML==i9.innerHTML && i9.innerHTML==i7.innerHTML && i4.innerHTML!="-"){
-        alert("Player " + user + " Wins  5");
+    else if(i7.innerHTML==i8.innerHTML && i8.innerHTML==i9.innerHTML && i9.innerHTML==i7.innerHTML && i7.innerHTML!="-"){
+        alert("Player " + (user + 1) + " Wins  5");
     }
 }
 
