@@ -1,5 +1,7 @@
 
-var user =0;
+var user = 0;
+var user1;
+var user2;
 var i1 = document.getElementById("i1");
 var i2 = document.getElementById("i2");
 var i3 = document.getElementById("i3");
@@ -10,6 +12,15 @@ var i7 = document.getElementById("i7");
 var i8 = document.getElementById("i8");
 var i9 = document.getElementById("i9");
 
+function submitInfo(form){
+    user1 = document.getElementById("player1").value;
+    user2 = document.getElementById("player2").value;
+    console.log(form + " " +user1 + " " + user2)
+    $('#box1').fadeOut('slow');
+//    $("#box1").fadeIn("slow");
+//    $("form").toggle();
+    event.preventDefault();
+}
 
 
 function clicked(ob){
