@@ -1,15 +1,38 @@
 
 body{
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(76,76,76,1)), color-stop(30%, rgba(44,44,44,1)), color-stop(57%, rgba(0,0,0,1)), color-stop(67%, rgba(17,17,17,1)), color-stop(100%, rgba(19,19,19,1)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%, rgba(44,44,44,1) 30%, rgba(0,0,0,1) 57%, rgba(17,17,17,1) 67%, rgba(19,19,19,1) 100%);
+
+    background: #161415 url('crysis.jpg') no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+
+}
+#container{
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#919191), to(#616161));*/
+    /*background: -webkit-linear-gradient(top, #919191, #616161);*/
+    background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+
+}
+#name{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
 }
 .hide{
     display: none;
+}
+.empty{
+    margin: auto;
+    /*width: 100%;*/
 }
 #form-container{
     margin: auto;
     position: absolute;
     top: 100px;
+    /*width: 1320px;*/
     /*bottom: 0;*/
     left: 0;right: 0;
     vertical-align: middle;

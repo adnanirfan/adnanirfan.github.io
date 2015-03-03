@@ -35,8 +35,8 @@
    width:280px;
    }
 .form-field:focus {
-   background: #0f0e0f;
-   color: #000000;
+   background: #a3a3a3;
+   color: #ffffff;
    }
 .form-container h2 {
    text-shadow: #6b6761 0 1px 0;
@@ -52,7 +52,7 @@
    }
 .submit-container {
    margin:8px 0;
-   text-align:right;
+   /*text-align:right;*/
    }
 .submit-button {
    border: 1px solid #ffffff;
