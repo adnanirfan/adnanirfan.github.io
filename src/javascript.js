@@ -29,7 +29,7 @@ function submitInfo(form){
 function clicked(ob){
     if(ob.innerHTML==0 || ob.innerHTML==1) {
 
-        console.log("Already Acquired")
+        alert("Already Acquired")
 
     }else{
         ob.innerHTML = user;
@@ -43,6 +43,13 @@ function clicked(ob){
 
         console.log(ob);
 
+    }
+}
+
+function reset(){
+    var divs = document.getElementsByClassName('button');
+    for(var i=0; i<divs.length; i++){
+        divs[i].innerHTML = '-';
     }
 }
 //****************************************************************************
@@ -70,6 +77,17 @@ function check(obj){
     }
 }
 
+function setLogo(){
+//    var logo = document.getElementsByClassName('effect-up');
+//    logo.style.position = 'absolute';
+//    logo.style.right = '100px';
+//    logo.style.bottom = '100px';
+
+    document.getElementsByClassName('effect-up').style.position = 'absolute';
+    document.getElementsByClassName('effect-up').style.right = '100px';;
+    document.getElementsByClassName('effect-up').style.bottom = '100px';
+}
+
 //****************************************************************************************************************//
 
 $(function animate() {
@@ -91,12 +109,15 @@ $(function animate() {
 
         // run the effect
         $( ".effect" ).hide( selectedEffect, options, 1500, callback );
+        $( ".effect-up" ).hide( "explode", options, 1500, callback );
     };
 
     // callback function to bring a hidden box back
     function callback() {
         setTimeout(function() {
             $( "#box" ).removeAttr( "style" ).hide().fadeIn();
+            setLogo();
+            $( ".effect-up" ).removeAttr( "style" ).hide().fadeIn();
         }, 100 );
     };
 
@@ -106,6 +127,3 @@ $(function animate() {
     });
 })
 //*************************************************************************************************//
-$("#button").click(function(){
-//    $("#box").removeClass("hide");
-});

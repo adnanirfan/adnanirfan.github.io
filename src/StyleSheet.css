@@ -16,10 +16,13 @@ body{
     overflow: hidden;
 
 }
-#name{
+#logo-RB{
     position: absolute;
-    right: 50px;
-    bottom: 50px;
+    left: 10px;
+    top: 200px;
+    bottom: auto;
+    border: transparent;
+    /*border-color: #aa3535;*/
 }
 .hide{
     display: none;
