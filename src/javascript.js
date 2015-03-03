@@ -15,6 +15,9 @@ var i9 = document.getElementById("i9");
 function submitInfo(form){
     user1 = document.getElementById("player1").value;
     user2 = document.getElementById("player2").value;
+    document.getElementById("player-input1").value = user1;
+    document.getElementById("player-input2").value = user2;
+
     console.log(form + " " +user1 + " " + user2)
 
 //    document.getElementById('#box').className = '';
@@ -55,25 +58,54 @@ function reset(){
 //****************************************************************************
 function check(obj){
     if(i1.innerHTML==i2.innerHTML && i2.innerHTML==i3.innerHTML && i3.innerHTML==i1.innerHTML && i1.innerHTML!="-"){
-        alert("Player " + (user + 1) + " Wins");
+        if(user == 0){
+            alert("Player " + (user + 1) + " Wins");
+            document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
+        }else if(user == 1){
+            document.getElementById('win').innerHTML = user2 + ' ' + 'Wins';
+        }
     }else if(i1.innerHTML==i5.innerHTML && i5.innerHTML==i9.innerHTML && i9.innerHTML==i1.innerHTML && i1.innerHTML!="-"){
-        alert("Player " + (user + 1) + " Wins");
+        if(user == 0){
+            document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
+        }else if(user == 1){
+            document.getElementById('win').innerHTML = user2 + ' ' + 'Wins';
+        }
     }else if(i1.innerHTML==i4.innerHTML && i4.innerHTML==i7.innerHTML && i7.innerHTML==i1.innerHTML && i1.innerHTML!="-"){
-        alert("Player " + (user + 1) + " Wins");
+        if(user == 0){
+            document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
+        }else if(user == 1){
+            document.getElementById('win').innerHTML = user2 + ' ' + 'Wins';
+        }
     }
 
     else if(i2.innerHTML==i5.innerHTML && i5.innerHTML==i8.innerHTML && i8.innerHTML==i2.innerHTML && i2.innerHTML!="-"){
-        alert("Player " + (user + 1) + " Wins");
+        if(user == 0){
+            document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
+        }else if(user == 1){
+            document.getElementById('win').innerHTML = user2 + ' ' + 'Wins';
+        }
     }
     else if(i3.innerHTML==i6.innerHTML && i6.innerHTML==i9.innerHTML && i9.innerHTML==i3.innerHTML && i3.innerHTML!="-"){
-        alert("Player " + (user + 1) + " Wins");
+        if(user == 0){
+            document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
+        }else if(user == 1){
+            document.getElementById('win').innerHTML = user2 + ' ' + 'Wins';
+        }
     }
 
     else if(i4.innerHTML==i5.innerHTML && i5.innerHTML==i6.innerHTML && i6.innerHTML==i4.innerHTML && i4.innerHTML!="-"){
-        alert("Player " + (user + 1) + " Wins");
+        if(user == 0){
+            document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
+        }else if(user == 1){
+            document.getElementById('win').innerHTML = user2 + ' ' + 'Wins';
+        }
     }
     else if(i7.innerHTML==i8.innerHTML && i8.innerHTML==i9.innerHTML && i9.innerHTML==i7.innerHTML && i7.innerHTML!="-"){
-        alert("Player " + (user + 1) + " Wins");
+        if(user == 0){
+            document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
+        }else if(user == 1){
+            document.getElementById('win').innerHTML = user2 + ' ' + 'Wins';
+        }
     }
 }
 
@@ -96,7 +128,7 @@ $(function animate() {
         //*************EFFECTS*************
         // blind, bounce, clip, drop, explode, fold, highlight, puff, pulsate, scale, shake, size, slide
         // get effect type from
-        var selectedEffect = 'slide';    /*$( "#effectTypes" ).val();*/
+        var selectedEffect = 'explode';    /*$( "#effectTypes" ).val();*/
 
         // most effect types need no options passed by default
         var options = {};
@@ -116,8 +148,9 @@ $(function animate() {
     function callback() {
         setTimeout(function() {
             $( "#box" ).removeAttr( "style" ).hide().fadeIn();
-            setLogo();
+//            setLogo();
             $( ".effect-up" ).removeAttr( "style" ).hide().fadeIn();
+            $( ".info-div" ).removeAttr( "style" ).hide().fadeIn();
         }, 100 );
     };
 

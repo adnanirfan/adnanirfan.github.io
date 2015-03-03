@@ -37,8 +37,11 @@
     </div>
 </form>
 
-<div class="form-container empty effect" id="user-info">
-    <img src="src/name0.jpg" alt=""/>
+<div class="hide info-div empty " id="user-info">
+    <div><label for="player-input1">Player 1   &nbsp;&nbsp;</label><input type="text" name="" id="player-input1" disabled/></div>
+    <div><label for="player-input2">Player 2   &nbsp;&nbsp;</label><input type="text" name="" id="player-input2" disabled/></div>
+    <button type="reset" class="myButton" onclick="reset()">Reset</button>
+    <label id="win">&nbsp;</label>
 </div>
 
 <div id="logo-RB" class="effect-up">
@@ -65,14 +68,10 @@
     </div>
 </div>
 
-    <div>
-        
-        <button type="reset" onclick="reset()">Reset</button>
-    </div>
 </div>
 <script type="text/javascript" src="src/javascript.js"></script>
 
-<script>
+<!--<script>
     function testAnim(x) {
         $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             $(this).removeClass();
@@ -91,7 +90,7 @@
             testAnim(anim);
         });
     });
-</script>
+</script>-->
 </body>
 
 </html>
