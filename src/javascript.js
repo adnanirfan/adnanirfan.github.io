@@ -54,6 +54,7 @@ function reset(){
     for(var i=0; i<divs.length; i++){
         divs[i].innerHTML = '-';
     }
+    document.getElementById('win').innerHTML = '';
 }
 //****************************************************************************
 function check(obj){
