@@ -60,7 +60,6 @@ function reset(){
 function check(obj){
     if(i1.innerHTML==i2.innerHTML && i2.innerHTML==i3.innerHTML && i3.innerHTML==i1.innerHTML && i1.innerHTML!="-"){
         if(user == 0){
-            alert("Player " + (user + 1) + " Wins");
             document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
         }else if(user == 1){
             document.getElementById('win').innerHTML = user2 + ' ' + 'Wins';
@@ -122,6 +121,37 @@ function setLogo(){
 }
 
 //****************************************************************************************************************//
+    var l = document.getElementById('starLabel');
+    var intCheck = true;
+    var num = 0;
+    var checkStar = true;
+    var star = '*'
+    var int = function () {
+
+        if (checkStar == false) {
+            star = star.substring(1, star.length)
+            l.innerHTML = star;
+            num--;
+            if (num == 0) {
+                checkStar = true
+            }
+        } else if (num < 20 && checkStar == true) {
+
+            star += '*';
+            l.innerHTML = star;
+            num++;
+            if (num == 20) {
+                checkStar = false;
+            }
+        }
+        if (num === 21) {
+         l.innerHTML = ''
+         num = 0;
+         }
+
+    }
+    setInterval( int, 50);
+//****************************************************************************************************************//
 
 $(function animate() {
     // run the currently selected effect
@@ -129,7 +159,7 @@ $(function animate() {
         //*************EFFECTS*************
         // blind, bounce, clip, drop, explode, fold, highlight, puff, pulsate, scale, shake, size, slide
         // get effect type from
-        var selectedEffect = 'explode';    /*$( "#effectTypes" ).val();*/
+        var selectedEffect = 'drop';    /*$( "#effectTypes" ).val();*/
 
         // most effect types need no options passed by default
         var options = {};
@@ -141,8 +171,8 @@ $(function animate() {
         }
 
         // run the effect
-        $( ".effect" ).hide( selectedEffect, options, 1500, callback );
-        $( ".effect-up" ).hide( "explode", options, 1500, callback );
+        $( ".effect" ).hide( selectedEffect, options, 500, callback );
+        $( ".effect-up" ).hide( "drop", options, 500, callback );
     };
 
     // callback function to bring a hidden box back
