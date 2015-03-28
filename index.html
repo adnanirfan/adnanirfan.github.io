@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="src/animate.min.css" type="text/css"/>
     <link rel="stylesheet" href="src/FormStyle.css" type="text/css"/>
     <link rel="stylesheet" href="src/StyleSheet.css" type="text/css"/>
-    <link rel="stylesheet" href="src/tablet.css"/>
+    <link rel="stylesheet" href="src/bootstrap-theme.min.css"/>
+    <!--<link rel="stylesheet" href="src/bootstrap.min.css"/>-->
 
     <script type="text/javascript" src="src/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="src/jquery-ui.js"></script>
@@ -18,6 +19,7 @@
 
 
 <body>
+
 <div id = 'container'>
 <!--<div id="box1" class="xc">
     <input type="text" placeholder="Player-1" value="123" id="player1"/>
@@ -39,13 +41,14 @@
 </form>
 
 <div class="hide info-div empty " id="user-info">
-    <div><label for="player-input1">Player 1   &nbsp;&nbsp;</label><input type="text" name="" id="player-input1" disabled/></div>
-    <div><label for="player-input2">Player 2   &nbsp;&nbsp;</label><input type="text" name="" id="player-input2" disabled/></div>
+    <div><label for="player-input1">Player 1   &nbsp;&nbsp;</label> <input type="text" name="" id="player-input1" disabled/></div>
+    <div><label for="player-input2">Player 2   &nbsp;&nbsp;</label> <input type="text" name="" id="player-input2" disabled/></div>
     <button type="reset" class="myButton" onclick="reset()">Reset</button>
     <p></p>
-    <label id="win">:&nbsp;</label>
+    <label id="win">&nbsp;</label>
     <p></p>
-    <label id="starLabel"></label>
+    <label class="starLabel position-left">-</label>
+    <label class="starLabel position-right">-</label>
 </div>
 
 <div id="logo-RB" class="effect-up">

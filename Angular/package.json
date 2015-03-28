@@ -1,0 +1,11 @@
+{
+  "name": "Angular",
+  "version": "1.0.0",
+  "description": "Angular Calculator-29-03-2015-1.15am",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adnanirfan <adnanshurta@gmail.com>",
+  "license": "ISC"
+}

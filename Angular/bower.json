@@ -1,0 +1,20 @@
+{
+  "name": "Angular",
+  "version": "0.0.0",
+  "homepage": "https://adnanirfan.github.io",
+  "authors": [
+    "adnanirfan <adnanshurta@gmail.com>"
+  ],
+  "description": "Angular Calculator-29-03-2015--1.05am",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15"
+  }
+}

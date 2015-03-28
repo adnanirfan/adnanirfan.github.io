@@ -36,7 +36,7 @@ function clicked(ob){
 
     }else{
         ob.innerHTML = user;
-        check(ob);
+        check();
         if (user == 0) {
             user = 1
         }
@@ -54,16 +54,18 @@ function reset(){
     for(var i=0; i<divs.length; i++){
         divs[i].innerHTML = '-';
     }
+    document.getElementsByClassName('starLabel');
+    clearInterval(int);
     document.getElementById('win').innerHTML = '';
 }
 //****************************************************************************
-function check(obj){
+function check(){
     if(i1.innerHTML==i2.innerHTML && i2.innerHTML==i3.innerHTML && i3.innerHTML==i1.innerHTML && i1.innerHTML!="-"){
         if(user == 0){
             document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
         }else if(user == 1){
             document.getElementById('win').innerHTML = user2 + ' ' + 'Wins';
-        }
+        }setInterval( int, 50);
     }else if(i1.innerHTML==i5.innerHTML && i5.innerHTML==i9.innerHTML && i9.innerHTML==i1.innerHTML && i1.innerHTML!="-"){
         if(user == 0){
             document.getElementById('win').innerHTML = user1 + ' ' + 'Wins';
@@ -121,16 +123,17 @@ function setLogo(){
 }
 
 //****************************************************************************************************************//
-    var l = document.getElementById('starLabel');
+    var l = document.getElementsByClassName('starLabel');
     var intCheck = true;
     var num = 0;
     var checkStar = true;
     var star = '*'
-    var int = function () {
+    var int = function() {
 
         if (checkStar == false) {
             star = star.substring(1, star.length)
-            l.innerHTML = star;
+            l[0].innerHTML = star;
+            l[1].innerHTML = star;
             num--;
             if (num == 0) {
                 checkStar = true
@@ -138,19 +141,20 @@ function setLogo(){
         } else if (num < 20 && checkStar == true) {
 
             star += '*';
-            l.innerHTML = star;
+            l[0].innerHTML = star;
+            l[1].innerHTML = star;
             num++;
             if (num == 20) {
                 checkStar = false;
             }
         }
         if (num === 21) {
-         l.innerHTML = ''
+         l.innerHTML = '';
          num = 0;
          }
 
     }
-    setInterval( int, 50);
+//    setInterval( int, 50);
 //****************************************************************************************************************//
 
 $(function animate() {

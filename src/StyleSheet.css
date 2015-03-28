@@ -128,7 +128,20 @@ body{
 }
 
 /************************************InfoDiv********************************/
-
+.starLabel{
+    display: block;
+    position: absolute;
+    /**/
+    /*top: 15px;*/
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+.position-right{
+    right: -5px;
+}
+.position-left{
+    left: -5px;
+}
 .info-div{
     border: 1px solid #f2e3d2;
     background: #3d3d3d;

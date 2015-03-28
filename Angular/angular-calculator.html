@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html ng-app>
+<head>
+    <title>Calculator Using Angular</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="../src/StyleSheet.css"/>
+    <link rel="stylesheet" href="../src/FormStyle.css"/>
+    <style>
+        label {
+            color: #eae0c2;
+        }
+        input{
+            border-radius: 5px;
+            background-color: #eae0c2;
+        }
+        #logo-RB{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            border: transparent;
+            /*border-color: #aa3535;*/
+        }
+    </style>
+</head>
+<body>
+<div class="form-container" id="form-container">
+    <div>
+        <h1>Calculator using AngularJS</h1>
+    </div>
+    <div style="text-align: left">
+        <label> First Number: </label>
+        <input type="number" ng-model="f"/>
+    </div>
+    <div style="text-align: left">
+        <label> First Number: </label>
+        <input type="number" ng-model="s"/>
+    </div>
+    <div class="left">
+        <div style="text-align: left">
+            <label> Addition: </label>
+        </div>
+        <div style="text-align: left">
+            <label> Subtraction: </label>
+        </div>
+        <div style="text-align: left">
+            <label> Multiply: </label>
+        </div>
+        <div style="text-align: left">
+            <label> Division: </label>
+        </div>
+        <div style="text-align: left">
+            <label> Square of First Number: </label>
+        </div>
+        <div style="text-align: left">
+            <label> Square of Second Number: </label>
+        </div>
+    </div>
+    <div class="right">
+        <div style="text-align: left">
+            <label> {{ f+s }} </label>
+        </div>
+        <div style="text-align: left">
+            <label> {{ f-s }} </label>
+        </div>
+        <div style="text-align: left">
+            <label> {{ f*s }} </label>
+        </div>
+        <div style="text-align: left">
+            <label> {{ f/s }} </label>
+        </div>
+        <div style="text-align: left">
+            <label> {{ f*f }} </label>
+        </div>
+        <div style="text-align: left">
+            <label> {{ s*s }} </label>
+        </div>
+    </div>
+    <!--<div id="logo-RB">
+        <img src="../src/Logo2.png" width="300px" height="150px" alt="Logo"/>
+    </div>-->
+</div>
+</body>
+</html>
