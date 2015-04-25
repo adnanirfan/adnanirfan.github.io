@@ -1,10 +1,86 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+<html ng-app="buttonsDemo1">
+<head>
+
+    <!-- Angulars Material CSS using RawGit to load directly from `bower-material/master` -->
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" href="view/dialog1.css"/>
+
+
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="todo.js" type="text/javascript"></script>
+    <script src="view/dialog1.js" type="text/javascript"></script>
 </head>
 <body>
+<!--<div ng-controller="func">
+<md-content>
+    <section layout="row" layout-sm="column" layout-align="center center">
+        <md-button class="md-raised">Button</md-button>
+        <md-button class="md-raised md-primary">Primary</md-button>
+        <md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
+        <md-button class="md-raised md-warn">Warn</md-button>
+        <div class="label">Raised</div>
+    </section>
+</md-content>
+
+<br/>
+
+<input type="text" ng-model="yourName" placeholder="Enter a name here">
+<br>
+<h1>Hello {{yourName}}!</h1>
+
+
+</div>-->
+
+<!--    <div layout="row" layout-align="center" style="border: solid">
+        <md-content class="md-whiteframe-z5" style="width: 30%; height: 500px; border: solid">
+
+            <h1 class="md-display-4">ToDo List</h1>
+            <div layout="row">
+                <md-input-container flex>
+                    <label>Title</label>
+                    <input ng-model="">
+                </md-input-container>
+                <span layout-align="center center">
+                <md-button class="md-raised " flex="20" style="height: 30px">Add</md-button>
+                    </span>
+            </div>
+
+        </md-content>
+    </div>-->
+<div class="md-container" layout="column" layout-align="center center">
+    <div ng-controller="AppCtrl" class="md-whiteframe-z5" style="width: 40%; padding: 10px;">
+
+        <md-toolbar>
+            <h2 class="md-toolbar-tools"> Todo List </h2>
+        </md-toolbar>
+        <div layout="row" layout-align="space-between center">
+            <md-input-container flex theme="">
+                <label>Search</label>
+                <input name="search" ng-model="searchTodo">
+            </md-input-container>
+            <span>
+                <md-button flex class="md-raised md-primary" ng-click="showAdvanced()">Add</md-button>
+                <md-button flex class="md-raised md-warn" ng-click="delete()">Delete</md-button>
+            </span>
+        </div>
+        <md-list>
+            <!--<md-subheader class="md-no-sticky">Checkbox with Secondary Action</md-subheader>-->
+            <md-list-item ng-repeat="message in messages | filter : searchTodo" layout="row" layout-align="space-between center">
+                <md-checkbox ng-model="message.selected"></md-checkbox>
+                <p>{{message.title}}</p>
+                <md-icon class="md-secondary" ng-click="" aria-label="Chat"></md-icon>
+            </md-list-item>
+        </md-list>
+    </div>
+
+</div>
+<!-- Angular Material Dependencies -->
+<script src="../bower_components/angular-animate/angular-animate.js"></script>
+<script src="../bower_components/angular-aria/angular-aria.js"></script>
+
+<!-- Angular Material Javascript using RawGit to load directly from `bower-material/master` -->
+<script src="../bower_components/angular-material/angular-material.js"></script>
 
 </body>
 </html>

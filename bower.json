@@ -1,0 +1,26 @@
+{
+  "name": "adnanirfan.github.io",
+  "version": "0.0.0",
+  "homepage": "http://adnanirfan.github.io",
+  "authors": [
+    "adnanirfan <adnanshurta@gmail.com>"
+  ],
+  "description": "TodoList with Angular Material",
+  "main": "index.html",
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "angular-material": "~0.8.3"
+  }
+}

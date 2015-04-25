@@ -1,0 +1,74 @@
+<html ng-app="customersApp">
+<head>
+	<title></title>
+	<script src="bower_components/angular/angular.js"> </script>
+</head>
+
+<body ng-init="">
+
+Search: <input type="text" ng-model="searchText">
+<div ng-controller="CustomersController">
+    <br/>
+    <h3>List</h3>
+    <table>
+        <tr ng-repeat="name in Names | filter:searchText">
+            <td>{{name}}</td>
+        </tr>
+    </table>
+    <hr/>
+    <table>
+        <tr ng-repeat="data in customers | filter:searchText">
+            <td>{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.class}}</td>
+        </tr>
+    </table>
+</div>
+
+<div ng-controller="CustomersController">
+    <table style="border: solid">
+        <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Phone</th>
+        </thead>
+        <tr ng-repeat="data in customers">
+            <td>{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.phone}}</td>
+        </tr>
+    </table>
+
+</div>
+
+<script>
+
+	var app = angular.module('customersApp', []);
+    /*app.config(function($routeProvider){
+        $routeProvider.when('/',{
+            controller: 'CustomersController',
+            templateUrl: '......'
+        })
+                .when('orders',{
+                    controller: 'OrdersController',
+                    templateUrl: '......'
+                })
+    });*/
+
+    app.controller('OrdersController', function($scope){
+        $scope.customerId = 5;
+    });
+
+    app.controller('CustomersController', function($scope){
+        $scope.customers=[
+            {'id':1, 'name':'Zed', 'phone':24234324234},
+            {'id':2, 'name':'Ted', 'phone':24234324234},
+            {'id':3, 'name':'Bed', 'phone':24234324234}
+        ];
+        $scope.Names=['Adnan','Hasnain','Noor','Furqan'];
+    });
+
+</script>
+</body>
+
+</html>
