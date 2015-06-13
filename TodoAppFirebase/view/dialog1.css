@@ -1,0 +1,20 @@
+.dialogdemoBasicUsage .dialogDemo1 {
+    height: 500px; }
+.dialogdemoBasicUsage .full {
+    width: 100%;
+    height: 100%; }
+.dialogdemoBasicUsage .gap {
+    width: 50px; }
+.dialogdemoBasicUsage md-dialog md-content.sticky-container {
+    padding: 0; }
+.dialogdemoBasicUsage md-dialog md-content.sticky-container .dialog-content {
+    padding: 0 24px 24px; }
+.dialogdemoBasicUsage .md-subheader {
+    background-color: #dcedc8;
+    margin: 0; }
+.dialogdemoBasicUsage h2.md-subheader.md-sticky-clone {
+    margin-right: 0;
+    margin-top: 0;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.16); }
+.dialogdemoBasicUsage h2 .md-subheader-content {
+    padding-left: 10px; }
