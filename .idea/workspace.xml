@@ -2,15 +2,753 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="013d1346-fb3e-4ce3-b5ea-dd4c2362fd7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Todo List/view/dialog1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Todo List/view/dialog1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Todo List/view/dialog1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Todo List/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Todo List/todo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/css/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/list/demoListControls/img/100-0.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/list/demoListControls/img/100-1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/list/demoListControls/img/100-2.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/chromedriver/chromedriver_linux.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/chromedriver/chromedriver_mac.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-streak-7.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-streak-7.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-streak-7.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-streak-7.3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-streak-7.4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-venue.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-venue.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-venue.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-venue.3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-venue.4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/dell-venue.5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/droid-2-global-by-motorola.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/droid-2-global-by-motorola.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/droid-2-global-by-motorola.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/droid-pro-by-motorola.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/droid-pro-by-motorola.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/lg-axis.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/lg-axis.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/lg-axis.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-atrix-4g.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-atrix-4g.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-atrix-4g.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-atrix-4g.3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-bravo-with-motoblur.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-bravo-with-motoblur.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-bravo-with-motoblur.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-charm-with-motoblur.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-charm-with-motoblur.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-charm-with-motoblur.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-defy-with-motoblur.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-defy-with-motoblur.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-defy-with-motoblur.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-xoom-with-wi-fi.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-xoom-with-wi-fi.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-xoom-with-wi-fi.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-xoom-with-wi-fi.3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-xoom-with-wi-fi.4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-xoom-with-wi-fi.5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-xoom.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-xoom.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/motorola-xoom.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/nexus-s.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/nexus-s.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/nexus-s.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/nexus-s.3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-galaxy-tab.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-galaxy-tab.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-galaxy-tab.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-galaxy-tab.3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-galaxy-tab.4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-galaxy-tab.5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-galaxy-tab.6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-gem.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-gem.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-gem.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-mesmerize-a-galaxy-s-phone.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-mesmerize-a-galaxy-s-phone.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-mesmerize-a-galaxy-s-phone.3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-showcase-a-galaxy-s-phone.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-showcase-a-galaxy-s-phone.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-transform.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-transform.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-transform.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-transform.3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/samsung-transform.4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/sanyo-zio.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/sanyo-zio.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/sanyo-zio.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/t-mobile-g2.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/t-mobile-g2.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/t-mobile-g2.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/t-mobile-mytouch-4g.0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/t-mobile-mytouch-4g.1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/t-mobile-mytouch-4g.2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/t-mobile-mytouch-4g.3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/t-mobile-mytouch-4g.4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/img/phones/t-mobile-mytouch-4g.5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-animate/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-aria/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/firebase/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/ARCHITECTURE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/services/AttachCommentTreeVisitor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/DOCUMENTATION.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/services/ExportTreeVisitor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularTypescript/Human.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-animate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-aria/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/firebase/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/chromedriver/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/lib/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/processors/addMethodsToService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoLoadSvgIconsFromUrl/img/icons/addShoppingCart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoSvgIconsFromURL/img/icons/addShoppingCart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoLoadSvgIconsFromUrl/img/icons/android.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoSvgIconsFromURL/img/icons/android.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoUsingTemplateCache/assets/android.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-animate/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-animate/angular-animate.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-animate/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-aria/angular-aria.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-aria/angular-aria.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-aria/angular-aria.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/css/angular-material-layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/angular-material-mocks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/angular-material.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/angular-material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/angular-material.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/angular-material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/scripts/angular-modulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/css/animations.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/js/animations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/animation/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/sibbling-routes/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/animation/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/hello/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/sibbling-routes/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/services/atParser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/services/atParser.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/readers/atScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/readers/atScript.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/examples/autobahn_client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/autocomplete/autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/autocomplete/autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/autocomplete/autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/autocomplete/autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/backdrop/backdrop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/backdrop/backdrop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/backdrop/backdrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/backdrop/backdrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/backdrop/backdrop.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/backdrop/backdrop.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/templates/layout/base.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/templates/layout/base.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-animate/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-aria/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/autocomplete/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/backdrop/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/bottomSheet/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/button/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/card/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/checkbox/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/chips/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/content/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/core/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/dialog/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/divider/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabActions/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabSpeedDial/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabToolbar/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabTrigger/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/gridList/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/icon/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/input/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/list/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/menu/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressCircular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressLinear/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/radioButton/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/select/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sidenav/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/slider/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sticky/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/subheader/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/swipe/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/switch/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tabs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/textField/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toast/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toolbar/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tooltip/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/whiteframe/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/firebase/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/button/button-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/button/button-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/button/button-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/button/button.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/button/button.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/button/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/button/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/button/button.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/button/button.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoLoadSvgIconsFromUrl/img/icons/cake.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoSvgIconSets/assets/cake.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoSvgIconsFromURL/img/icons/cake.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoUsingTemplateCache/assets/cake.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/card/card-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/card/card-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/card/card-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/card/card.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/card/card.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/card/card.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/card/card.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/card/card.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/card/card.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/cell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/checkbox/checkbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/checkbox/checkbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/checkbox/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/checkbox/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/checkbox/checkbox.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/checkbox/checkbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/chips/chips-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/chips/chips-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/chips/chips-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/chips/chips.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/chips/chips.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/chips/chips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/chips/chips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/chips/chips.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/chips/chips.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/chromedriver/chromedriver_shadow_dom.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/templates/class.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/examples/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/templates/common.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/test/component-loader.es5.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/content/configuration.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/content/content-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/content/content-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/content/content-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/content/content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/content/content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/content/content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/content/content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/content/content.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/content/content.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/test/controller-introspector.es5.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/copy2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoSvgIconSets/assets/core-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoUsingTemplateCache/assets/core-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/core/core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/core/core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/core/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/core/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/core/core.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/core/core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/templates/data-module.template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/core/default-theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/core/default-theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/dell-streak-7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/dell-venue.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/scripts/deploy_docs_to_gh_pages.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/dgeni.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/dialog/dialog-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/dialog/dialog-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/dialog/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/dialog/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/dialog/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/dialog/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/dialog/dialog.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/dialog/dialog.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/divider/divider-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/divider/divider-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/divider/divider-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/divider/divider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/divider/divider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/divider/divider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/divider/divider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/divider/divider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/divider/divider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/rendering/docTypeLabel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/draft75.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/draft76.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/droid-2-global-by-motorola.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/droid-pro-by-motorola.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/components/edit-post/edit-post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/components/edit-post/edit-post.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/end/end.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/end/end.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/lib/faye/eventsource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/fabActions/fabActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabActions/fabActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabActions/fabActions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/facebook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/toolbar/demoBasicUsage/img/icons/favorite.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/js/filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/firebase/firebase-debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/lib/firebase-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/lib/firebase-web.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/firebase/firebase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/hello/components/flickr/flickr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/hello/components/flickr/flickr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/functor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/processors/generateDocsFromComments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/processors/generateIndexPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/services/getJSDocComment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/services/getJSDocComment.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/content/getting-started.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/animation/components/goodbye/goodbye.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/animation/components/goodbye/goodbye.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/src/grammar.ats" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/gridList/gridList-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/gridList/gridList.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/gridList/gridList.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/gridList/gridList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/gridList/gridList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/gridList/gridList.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/gridList/gridList.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/hangout.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/examples/haproxy.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/headers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/highlight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/http_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/input/demoIcons/icons/ic_email_24px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/input/demoIcons/icons/ic_person_24px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/input/demoIcons/icons/ic_phone_24px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/input/demoIcons/icons/ic_place_24px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/icon/icon-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/icon/icon-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/icon/icon-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/icon/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/icon/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/icon/icon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/icon/icon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/icon/icon.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/icon/icon.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularTypescript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/animation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/components/index/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/hello/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/sibbling-routes/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-animate/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-aria/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/components/index/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/templates/index.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/input/input-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/input/input-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/input/input-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/input/input.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/input/input.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/input/input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/input/input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/input/input.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/input/input.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/intro/intro.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/intro/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/templates/js.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/karma.es5.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/config/karma.sauce.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/config/karma.travis.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/lg-axis.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/content/lifecycle.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/list/list-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/list/list-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/list/list-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/list/list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/list/list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/list/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/list/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/list/list.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/list/list.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/components/login/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/components/login/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/test/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/script/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularTypescript/main.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/file-readers/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/processors/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/templates/markdown.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/menu/menu-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/menu/menu-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/menu/menu-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/menu/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/menu/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/menu/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/menu/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/menu/menu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/menu/menu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/toolbar/demoBasicUsage/img/icons/menu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi/message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/message.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/templates/module.template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/toolbar/demoBasicUsage/img/icons/more_vert.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/motorola-atrix-4g.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/motorola-bravo-with-motoblur.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/motorola-charm-with-motoblur.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/motorola-defy-with-motoblur.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/motorola-xoom-with-wi-fi.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/motorola-xoom.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/nexus-s.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/npm-shrinkwrap.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/one/one.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/one/one.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-animate/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-aria/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/components/phone-detail/phone-detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/components/phone-detail/phone-detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/components/phone-list/phone-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/components/phone-list/phone-list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/phones.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/src/pipeline.ats" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/test/pipeline.es5.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/pledge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/sibbling-routes/components/posts/posts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/print.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/processors/processClassDocs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/processors/processModuleDocs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/progressCircular/progressCircular.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressCircular/progressCircular.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/progressCircular/progressCircular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressCircular/progressCircular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/progressLinear/progressLinear.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressLinear/progressLinear.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/progressLinear/progressLinear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressLinear/progressLinear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/protractor.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/protractor.travis.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/proxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/examples/proxy_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/radioButton/radioButton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/radioButton/radioButton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/radioButton/radioButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/radioButton/radioButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/radioButton/radioButton.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/radioButton/radioButton.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/rendering/relativeLinkInlineTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/ring_buffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/src/router-directive.es5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/test/router-viewport.es5.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/src/router.ats" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/test/router.spec.ats" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/scripts/run_protractor_tests.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/samsung-galaxy-tab.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/samsung-gem.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/samsung-mesmerize-a-galaxy-s-phone.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/samsung-showcase-a-galaxy-s-phone.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/samsung-transform.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/sanyo-zio.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/scripts/sauce_connect_setup.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/components/save-modal/save-modal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/components/save-modal/save-modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/components/save-modal/save-modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/animation/scenario.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/confirm-unsaved/scenario.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/hello/scenario.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/scenario.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/select/select-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/select/select-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/select/select-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/select/select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/select/select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/select/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/select/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/select/select.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/select/select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/chromedriver/selenium_shadow_dom.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/examples/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/script/service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/js/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/hello/components/settings/settings.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/hello/components/settings/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/share-arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/sidenav/sidenav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sidenav/sidenav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/sidenav/sidenav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sidenav/sidenav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sidenav/sidenav.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sidenav/sidenav.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/slider/slider-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/slider/slider-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/slider/slider-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/slider/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/slider/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/slider/slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/slider/slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/slider/slider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/slider/slider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/icon/demoSvgIconSets/assets/social-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/examples/sse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/sticky/sticky.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sticky/sticky.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/sticky/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sticky/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sticky/sticky.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/sticky/sticky.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi/stream_reader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/streams.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/chips/demoBasicUsage/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/chips/demoContactChips/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/gridList/demoBasicUsage/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/gridList/demoDynamicTiles/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/gridList/demoResponsiveUsage/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/input/demoIcons/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/tabs/demoDynamicHeight/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/tabs/demoDynamicTabs/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/tabs/demoStaticTabs/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/subheader/subheader-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/subheader/subheader-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/subheader/subheader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/subheader/subheader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/subheader/subheader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/subheader/subheader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/subheader/subheader.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/subheader/subheader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/swipe/swipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/swipe/swipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/swipe/swipe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/switch/switch-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/switch/switch-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/switch/switch-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/switch/switch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/switch/switch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/switch/switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/switch/switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/switch/switch.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/switch/switch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/t-mobile-g2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/phone-kitten/phones/t-mobile-mytouch-4g.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/tabs/tabs-arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tabs/tabs-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tabs/tabs-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/tabs/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tabs/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/tabs/tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tabs/tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tabs/tabs.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tabs/tabs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/examples/tcp_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/scripts/test_on_sauce.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/textField/textField-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/textField/textField-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/textField/textField-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/textField/textField.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/textField/textField.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/textField/textField.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/textField/textField.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/textField/textField.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/textField/textField.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/three/three.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/three/three.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/toast/toast-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toast/toast-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toast/toast-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/toast/toast.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toast/toast.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/toast/toast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toast/toast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toast/toast.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toast/toast.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/toolbar/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toolbar/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/toolbar/toolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toolbar/toolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toolbar/toolbar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/toolbar/toolbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/tooltip/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tooltip/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/tooltip/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tooltip/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tooltip/tooltip.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/tooltip/tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/scripts/lib/traceur-runtime-custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/docs/traceur-package/services/traceur.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/twitter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/two/two.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/wizard/components/two/two.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/demos/bottomSheet/demoBasicUsage/img/icons/upload.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/components/userlist/userlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/components/userlist/userlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/sibbling-routes/components/users/users.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/test/util.es5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/scripts/wait_for_browser_provider.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/websocket_extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/animation/components/welcome/welcome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/hello/components/welcome/welcome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/animation/components/welcome/welcome.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-new-router/examples/angular-1/hello/components/welcome/welcome.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/whiteframe/whiteframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/whiteframe/whiteframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/closure/whiteframe/whiteframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/whiteframe/whiteframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChatApp/node_modules/firebase/node_modules/faye-websocket/examples/ws.html" />
+      <change type="DELETED" beforePath="E:\WorkSpace GitHub\adnanirfan.github.io\src\background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace GitHub\adnanirfan.github.io\src\name.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\WorkSpace GitHub\adnanirfan.github.io\src\name0.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/Angular/bower_components/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/bower_components/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DuaAppFirebase/animesh.js" afterPath="$PROJECT_DIR$/DuaAppFirebase/animesh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TodoAppFirebase/view/auth.js" afterPath="$PROJECT_DIR$/TodoAppFirebase/view/auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Todo List/view/dialog1.html" afterPath="$PROJECT_DIR$/Todo List/view/dialog1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TodoAppFirebase/view/dialog1.html" afterPath="$PROJECT_DIR$/TodoAppFirebase/view/dialog1.html" />
+      <change type="MODIFICATION" beforePath="E:\WorkSpace GitHub\adnanirfan.github.io\DuaAppFirebase\components\home\home.js" afterPath="$PROJECT_DIR$/DuaAppFirebase/components/home/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DuaAppFirebase/index.html" afterPath="$PROJECT_DIR$/DuaAppFirebase/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Todo List/index.html" afterPath="$PROJECT_DIR$/Todo List/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TodoAppFirebase/index.html" afterPath="$PROJECT_DIR$/TodoAppFirebase/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DuaAppFirebase/main.js" afterPath="$PROJECT_DIR$/DuaAppFirebase/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TodoAppFirebase/main.js" afterPath="$PROJECT_DIR$/TodoAppFirebase/main.js" />
+      <change type="MODIFICATION" beforePath="E:\WorkSpace GitHub\adnanirfan.github.io\DuaAppFirebase\components\new\new.html" afterPath="$PROJECT_DIR$/DuaAppFirebase/components/new/new.html" />
+      <change type="MODIFICATION" beforePath="E:\WorkSpace GitHub\adnanirfan.github.io\DuaAppFirebase\components\new\new.js" afterPath="$PROJECT_DIR$/DuaAppFirebase/components/new/new.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DuaAppFirebase/style.css" afterPath="$PROJECT_DIR$/DuaAppFirebase/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Todo List/todo.js" afterPath="$PROJECT_DIR$/Todo List/todo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Todo List/todo1.js" afterPath="$PROJECT_DIR$/Todo List/todo1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\WorkSpace GitHub\adnanirfan.github.io\DuaAppFirebase\components\home\Home.html" afterPath="$PROJECT_DIR$/DuaAppFirebase/components/home/home.html" />
     </list>
     <ignored path="adnanirfan.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,66 +759,69 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="adnanirfan.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4985119">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Todo List/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.034734916" vertical-offset="678" max-vertical-offset="1547">
-                  <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dialog1.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Todo List/view/dialog1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-13.846154" vertical-offset="167" max-vertical-offset="714">
-                  <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Todo List/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1547">
-                  <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="todo.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Todo List/todo.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41535777" vertical-offset="255" max-vertical-offset="986">
-                  <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChatApp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.9615383">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userlist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChatApp/components/userlist/userlist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="20" column="135" selection-start-line="20" selection-start-column="135" selection-end-line="20" selection-end-column="135" />
+              <folding>
+                <element signature="n#style#0;n#md-subheader#0;n#div#0;n#md-card#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userlist.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ChatApp/components/userlist/userlist.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2886248">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TodoAppFirebase/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
+              <folding>
+                <element signature="e#1911#1984#0" expanded="false" />
+                <element signature="e#2032#2699#0" expanded="false" />
+                <element signature="e#2747#3294#0" expanded="false" />
+                <element signature="e#3350#3491#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Html5" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -91,27 +832,48 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/WorkSpace WebDevelopment/Angular - 1st - 27-03-2015/angular.html" />
-        <option value="E:/WorkSpace WebDevelopment/Angular - 1st - 27-03-2015/angular-calculator.html" />
-        <option value="$PROJECT_DIR$/src/FormStyle.css" />
-        <option value="$PROJECT_DIR$/Angular/angular-calculator.html" />
-        <option value="$PROJECT_DIR$/../MassTrainingBatch2/29thMarch2015/index.html" />
-        <option value="$PROJECT_DIR$/Angular/andular-danwahlin.html" />
-        <option value="E:/WorkSpace JavaScript &amp; AngularJS/Assignment/credit_management_system.js" />
-        <option value="E:/WorkSpace JavaScript &amp; AngularJS/CreditManagementUsingConstructors.html" />
-        <option value="E:/WorkSpace JavaScript &amp; AngularJS/Assignment/ConstructorAssignment.html" />
-        <option value="$PROJECT_DIR$/Bootstrap/Bootstrap.html" />
-        <option value="E:/WorkSpace JavaScript &amp; AngularJS/Controller Assignment--17-04-2015.html" />
-        <option value="$PROJECT_DIR$/Todo List/view/dialog1.tmpl.html" />
-        <option value="$PROJECT_DIR$/Todo List/view/dialog1.tmpl.js" />
-        <option value="$PROJECT_DIR$/Todo List/view/dialog1.css" />
-        <option value="$PROJECT_DIR$/Todo List/index.html" />
-        <option value="$PROJECT_DIR$/Todo List/view/dialog1.html" />
-        <option value="$PROJECT_DIR$/Todo List/todo.js" />
+        <option value="E:/WorkSpace JavaScript &amp; AngularJS/29-05-2015--Router/index.html" />
+        <option value="$PROJECT_DIR$/../MassTrainingBatch2/17thMay2015/DemoNewRouter/index.html" />
+        <option value="$PROJECT_DIR$/TodoAppFirebase/view/auth.js" />
+        <option value="$PROJECT_DIR$/TodoAppFirebase/view/dialog1.html" />
+        <option value="$PROJECT_DIR$/TodoAppFirebase/index.html" />
+        <option value="$PROJECT_DIR$/TodoAppFirebase/main.js" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/maind.js" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/style.css" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/animesh.js" />
+        <option value="E:/WorkSpace JavaScript &amp; AngularJS/Qaseem/AddData/index.html" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/components/AllPublic/Home.html" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/components/New/new.html" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/components/New/new.js" />
+        <option value="$PROJECT_DIR$/bower_components/angular-new-router/examples/angular-1/animation/index.html" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/index.html" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/components/new/new.html" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/components/new/new.js" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/components/home/home.html" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/main.js" />
+        <option value="$PROJECT_DIR$/DuaAppFirebase/components/home/home.js" />
+        <option value="$PROJECT_DIR$/AngularTypescript/index.html" />
+        <option value="$PROJECT_DIR$/AngularTypescript/main.js" />
+        <option value="$PROJECT_DIR$/AngularTypescript/Human.ts" />
+        <option value="$PROJECT_DIR$/AngularTypescript/main.ts" />
+        <option value="$PROJECT_DIR$/ChatApp/index.html" />
+        <option value="$PROJECT_DIR$/ChatApp/components/userlist/userlist.html" />
+        <option value="$PROJECT_DIR$/ChatApp/components/userlist/userlist.js" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path>C:\Users\Hasnain\AppData\Roaming\npm\bower.cmd</exe-path>
+    <config-path>E:\WorkSpace GitHub\adnanirfan.github.io\bower.json</config-path>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -145,7 +907,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,7 +935,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Todo List" />
+              <option name="myItemId" value="ChatApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -188,21 +949,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Todo List" />
+              <option name="myItemId" value="ChatApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adnanirfan.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adnanirfan.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.intellij.plugins.intelliLang.InjectionsSettingsUI" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -210,60 +995,67 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="E:/WorkSpace Pana/panacloud-wow-master/web" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="JavaScriptLanguageLevel" value="ES5" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace GitHub\adnanirfan.github.io\ChatApp" />
+      <recent name="E:\WorkSpace GitHub\adnanirfan.github.io\TodoAppFirebase" />
+      <recent name="E:\WorkSpace GitHub\adnanirfan.github.io\Todo List\view" />
       <recent name="E:\WorkSpace WebDevelopment\Angular - 1st - 27-03-2015" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace GitHub\adnanirfan.github.io\TodoAppFirebase" />
+      <recent name="E:\WorkSpace GitHub\adnanirfan.github.io\Todo List" />
       <recent name="E:\WorkSpace GitHub\adnanirfan.github.io\Bootstrap" />
       <recent name="E:\WorkSpace GitHub\adnanirfan.github.io" />
-      <recent name="E:\WorkSpace GitHub\adnanirfan.github.io\Todo List" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="name" value="Dart" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -273,6 +1065,7 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="013d1346-fb3e-4ce3-b5ea-dd4c2362fd7f" name="Default" comment="" />
       <created>1427543654563</created>
+      <option name="number" value="Default" />
       <updated>1427543654563</updated>
     </task>
     <servers />
@@ -281,43 +1074,26 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37296417" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16431227" sideWeight="0.49916247" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17235772" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60325205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2796748" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23214285" sideWeight="0.49916247" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22349103" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5008375" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967373" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3583062" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5008375" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13988096" sideWeight="0.49916247" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -330,375 +1106,425 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/TodoAppFirebase/main.js</url>
+          <line>188</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/TodoAppFirebase/main.js</url>
+          <line>225</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/TodoAppFirebase/main.js</url>
+          <line>201</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/TodoAppFirebase/main.js</url>
+          <line>165</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/TodoAppFirebase/main.js</url>
+          <line>144</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/TodoAppFirebase/main.js</url>
+          <line>86</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/TodoAppFirebase/main.js</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/TodoAppFirebase/main.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/main.js">
+    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/3rdMay2015/firebaseArray/todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3349">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43441227">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/ConstructorAssignment.html">
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-material/angular-material.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1768">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/CreditManagementUsingConstructors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1156">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/credit_management_system.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1292">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/credit_management_system.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="986">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3349">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/ConstructorAssignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1768">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/CreditManagementUsingConstructors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/credit_management_system.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1292">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/credit_management_system.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="986">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3349">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/ConstructorAssignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1768">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/andular-danwahlin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1343">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/29thMarch2015/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/29thMarch2015/myControllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1853">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1853">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace WebDevelopment/Angular - 1st - 27-03-2015/angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="612">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StyleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3876">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/angular-calculator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1547">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/Bootstrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="561">
-          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Two Way Data Biinding (1).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="697">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1853">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1853">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace WebDevelopment/Angular - 1st - 27-03-2015/angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="612">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StyleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3876">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/angular-calculator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1547">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Two Way Data Biinding (1).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="697">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StyleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3876">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/angular-calculator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1547">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1853">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace WebDevelopment/Angular - 1st - 27-03-2015/angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.730769" vertical-offset="30" max-vertical-offset="612">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Two Way Data Biinding (1).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17889088" vertical-offset="87" max-vertical-offset="697">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/andular-danwahlin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.730769" vertical-offset="579" max-vertical-offset="1343">
-          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/29thMarch2015/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54642856" vertical-offset="0" max-vertical-offset="560">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/29thMarch2015/myControllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/credit_management_system.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/credit_management_system.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="986">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/CreditManagementUsingConstructors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1156">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/ConstructorAssignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7589286" vertical-offset="697" max-vertical-offset="1768">
-          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Assignment/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.351536" vertical-offset="2703" max-vertical-offset="3349">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33208954">
+          <caret line="83" column="117" selection-start-line="83" selection-start-column="109" selection-end-line="83" selection-end-column="117" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573">
-          <caret line="4" column="117135" selection-start-line="4" selection-start-column="117135" selection-end-line="4" selection-end-column="117135" />
+        <state vertical-scroll-proportion="0.37900355">
+          <caret line="4" column="108833" selection-start-line="4" selection-start-column="108833" selection-end-line="4" selection-end-column="108833" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/Bootstrap.html">
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81964284" vertical-offset="0" max-vertical-offset="561">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.5443038">
+          <caret line="3121" column="17" selection-start-line="3121" selection-start-column="9" selection-end-line="3121" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Controller Assignment--17-04-2015.html">
+    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/17thMay2015/DemoNewRouter/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31071427" vertical-offset="1475" max-vertical-offset="2057">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Todo List/view/dialog1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Todo List/view/dialog1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5646853" vertical-offset="0" max-vertical-offset="572">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Todo List/view/dialog1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.846154" vertical-offset="167" max-vertical-offset="714">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding />
+        <state vertical-scroll-proportion="0.39609236">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo List/todo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1443124">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoAppFirebase/view/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86587435">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoAppFirebase/view/dialog1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoAppFirebase/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Todo List/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75042444">
+          <caret line="26" column="10" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/24thMay2015/DemoFirebaseAuthentication/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51952463">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/24thMay2015/DemoFirebaseAuthentication/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/24thMay2015/DemoFirebaseAuthentication/service_user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoAppFirebase/view/dialog1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29321662">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Todo List/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1547">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="73" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StyleSheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="4" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9684015">
+          <caret line="178" column="20" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.153846">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DuaAppFirebase/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="558" column="1" selection-start-line="558" selection-start-column="1" selection-end-line="558" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DuaAppFirebase/animesh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/WorkSpace JavaScript &amp; AngularJS/Qaseem/AddData/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1212121">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/17thMay2015/DemoNewRouter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MassTrainingBatch2/7thJune2015/revisionRouter/components/home/home.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11584327">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-new-router/dist/router.es5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="230.44444">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/andular-danwahlin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/angular-calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.36363637">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-new-router/examples/angular-1/animation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.082397">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-new-router/examples/angular-1/animation/components/welcome/welcome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18214285">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/angular-new-router/examples/angular-1/animation/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DuaAppFirebase/components/new/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DuaAppFirebase/components/new/new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DuaAppFirebase/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DuaAppFirebase/components/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DuaAppFirebase/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DuaAppFirebase/components/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularTypescript/main-compiled.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularTypescript/main.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularTypescript/main-compiled.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularTypescript/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularTypescript/Human.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040963855">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularTypescript/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularTypescript/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2182255">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoAppFirebase/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChatApp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9615383">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todo List/todo.js">
+    <entry file="file://$PROJECT_DIR$/TodoAppFirebase/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41535777" vertical-offset="255" max-vertical-offset="986">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
+          <folding>
+            <element signature="e#1911#1984#0" expanded="false" />
+            <element signature="e#2032#2699#0" expanded="false" />
+            <element signature="e#2747#3294#0" expanded="false" />
+            <element signature="e#3350#3491#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChatApp/components/userlist/userlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="20" column="135" selection-start-line="20" selection-start-column="135" selection-end-line="20" selection-end-column="135" />
+          <folding>
+            <element signature="n#style#0;n#md-subheader#0;n#div#0;n#md-card#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChatApp/components/userlist/userlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2886248">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

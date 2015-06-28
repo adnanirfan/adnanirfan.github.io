@@ -1,41 +1,22 @@
-<!--
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
 
-</body>
-</html>-->
 <md-dialog aria-label="Mango (Fruit)" style="border: none; width: 30%">
-    <md-content class="sticky-container">
-        <!--<md-subheader class="md-sticky-no-effect">Mango (Fruit)</md-subheader>-->
-        <div class="dialog-content">
-            <md-input-container>
-                <label>Description</label>
-                <input type="text" ng-model="description"/>
+    <md-toolbar style="">
+        <h2 class="md-toolbar-tools"> Login With ... </h2>
+    </md-toolbar>
 
-            </md-input-container>
-            <md-input-container flex>
-                <label>Submission Date</label>
-                <input type="date" ng-model="ddate">
-            </md-input-container>
-            {{ddate | date : yyyy-mm-dd}}
+    <md-content class="sticky-container">
+        <div class="dialog-content" layout="row" layout-align="space-around center" style="margin-top: 15px">
+            <md-button class="md-raised md-primary" ng-disabled="false" ng-click="answer('facebook')">Facebook</md-button>
+            <md-button class="md-raised md-warn" ng-click="answer('google')">Google</md-button>
         </div>
     </md-content>
     <!--/*************************************************************************************************************/-->
     <div class="md-actions" layout="row">
-        <md-button href="http://en.wikipedia.org/wiki/Mango" target="_blank" hide show-md>
-            More on Wikipedia
-        </md-button>
+
         <span flex></span>
-        <md-button ng-click="answer('useful')" class="md-primary">
-            Add
-        </md-button>
-        <md-button ng-click="answer()">
-            Not Useful
+
+        <md-button ng-click="">
+
         </md-button>
     </div>
 </md-dialog>

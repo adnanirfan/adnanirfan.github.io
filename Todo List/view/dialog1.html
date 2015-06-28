@@ -13,15 +13,19 @@
     <md-content class="sticky-container">
         <!--<md-subheader class="md-sticky-no-effect">Mango (Fruit)</md-subheader>-->
         <div class="dialog-content">
-            {{description}}
             <md-input-container>
                 <label>Description</label>
                 <input type="text" ng-model="description"/>
 
             </md-input-container>
+            <md-input-container flex>
+                <label>Submission Date</label>
+                <input type="date" ng-model="ddate">
+            </md-input-container>
+            {{ddate | date : yyyy-mm-dd}}
         </div>
     </md-content>
-
+    <!--/*************************************************************************************************************/-->
     <div class="md-actions" layout="row">
         <md-button href="http://en.wikipedia.org/wiki/Mango" target="_blank" hide show-md>
             More on Wikipedia
@@ -30,7 +34,7 @@
         <md-button ng-click="answer('useful')" class="md-primary">
             Add
         </md-button>
-        <md-button ng-click="answer('not useful')">
+        <md-button ng-click="answer()">
             Not Useful
         </md-button>
     </div>

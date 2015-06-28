@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/AngularTypescript/main-compiled.js" />
+        <item url="file://$PROJECT_DIR$/AngularTypescript/main.js" />
+        <item url="file://$PROJECT_DIR$/AngularTypescript/Human.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/AngularTypescript/main-compiled.js" />
+      <root url="file://$PROJECT_DIR$/AngularTypescript/main.js" />
+      <root url="file://$PROJECT_DIR$/AngularTypescript/Human.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

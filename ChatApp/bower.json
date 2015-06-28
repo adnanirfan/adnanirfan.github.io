@@ -1,0 +1,23 @@
+{
+  "name": "BikersApp",
+  "version": "0.0.0",
+  "authors": [
+    "adnanirfan <adnanshurta@gmail.com>"
+  ],
+  "description": "ChatApp",
+  "main": "index.html",
+  "keywords": [
+    "Bikers",
+    "App",
+    "ChatApp"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

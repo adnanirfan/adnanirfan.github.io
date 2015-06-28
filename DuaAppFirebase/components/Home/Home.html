@@ -1,46 +1,53 @@
-<md-card>
-    <md-toolbar md-scroll-shrink class="md-accent">
-        <div class="md-toolbar-tools">
-            <h3>
-                <span>All requested Dua</span>
-            </h3>
-        </div>
-    </md-toolbar>
-    <md-card-content>
-        <div layout="column" layout-fill layout-align="top center">
-            <md-card class="" ng-repeat="item in arr">
-                <md-card-content>
-                    <md-list-item class="md-3-line" layout="row" layout-align="space-between center">
+<div>
+    <p>{{2+5}} | {{home.name}}</p>
 
-                        <div class="md-list-item-text ">
-                            <h3>Sample {{item}}</h3>
-                        </div>
-                        <div layout="column" layout-align="space-between center">
-                            <div flex="80" class="">&nbsp;</div>
-                            <div  layout="row" layout-align="end end"   >
-                                <h5 style="margin-bottom: 0px">Requested By: &nbsp;&nbsp;</h5>
-                                <h5 style="margin-bottom: 0px">| Counter &nbsp;</h5>
-                                <h5 style="margin-bottom: 0px">| Done </h5>
+
+    <md-card>
+        <md-toolbar md-scroll-shrink class="md-accent">
+            <div class="md-toolbar-tools">
+                <h3>
+                    <span>All requested Dua</span>
+                </h3>
+            </div>
+            <md-button onclick="home.addval()">Add</md-button>
+        </md-toolbar>
+        <md-card-content>
+            <div layout="column" layout-fill layout-align="top center">
+                <md-card class="" ng-repeat="item in home.arr">
+                    <md-card-content>
+                        <md-list-item class="md-3-line" layout="row" layout-align="space-between center">
+
+                            <div class="md-list-item-text ">
+                                <h3>Sample {{item}}</h3>
                             </div>
-                        </div>
-                    </md-list-item>
+                            <div layout="column" layout-align="space-between center">
+                                <div flex="80" class="">&nbsp;</div>
+                                <div layout="row" layout-align="end end">
+                                    <!--<h5 style="margin-bottom: 0px">Requested By: &nbsp; {{item.RequestedBy}}</h5>-->
+                                    <!--<h5 style="margin-bottom: 0px">| Counter :&nbsp; {{item.Counter}}</h5>-->
+                                    <!--<h5 style="margin-bottom: 0px">| Done </h5>-->
+                                </div>
+                            </div>
+                        </md-list-item>
 
-                </md-card-content>
-            </md-card>
+                    </md-card-content>
+                </md-card>
 
-            <md-divider></md-divider>
-            <div>
-                <md-button ng-click="toggleLeft()"
-                           class="md-primary" hide-gt-md>
-                    Toggle left
-                </md-button>
+                <md-divider></md-divider>
+                <div>
+                    <md-button ng-click="toggleLeft()"
+                               class="md-primary" hide-gt-md>
+                        Toggle left
+                    </md-button>
+                </div>
+                <div>
+                    &lt;!&ndash;<md-button ng-click="toggleRight()"
+                               class="md-primary">
+                        Toggle right
+                    </md-button>&ndash;&gt;
+                </div>
             </div>
-            <div>
-                <!--<md-button ng-click="toggleRight()"
-                           class="md-primary">
-                    Toggle right
-                </md-button>-->
-            </div>
-        </div>
-    </md-card-content>
-</md-card>
+        </md-card-content>
+    </md-card>
+
+</div>

@@ -1,0 +1,67 @@
+<!--Hi-->
+
+<div layout="row" layout-wrap>
+    <div flex>&nbsp;</div>
+    <!--{{login.name}}-->
+    <div flex="50">
+        <md-card class="md-whiteframe-z5" style="border-top-right-radius: 20px; border-bottom-left-radius: 20px;">
+
+            <md-toolbar style="border-top-right-radius: 20px;">
+                <div class="md-toolbar-tools">
+                    <h2>
+                        <span>Chat</span>
+                    </h2>
+                    <span flex></span>
+                    <h2>
+                        <span>{{userlist.userName}}</span>
+                    </h2>
+                </div>
+            </md-toolbar>
+            <div layout="row" style="border-bottom: 1px solid #e0e0e0">
+                <md-subheader flex="35" class="md-no-sticky" style="border-right: 1px solid #e0e0e0;  color: #FD971F; margin-right: 0px">Online Users</md-subheader>
+                <md-subheader class="md-no-sticky" style="color: #FD971F">Messages</md-subheader>
+
+            </div>
+            <div layout="row">
+                <md-content flex="35" style="border-right: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;">
+                    <md-list>
+                        <md-list-item class="md-3-line" ng-repeat="item in userlist.usersList" ng-click="userlist.showMsgList(this)">
+                            <img ng-src="{{item.facebook.cachedUserProfile.picture.data.url}}" class="md-avatar" alt="Pic" />
+                            <div class="md-list-item-text">{{ item.userName}}
+                                <!--<md-checkbox ng-disabled="false" ></md-checkbox>-->
+                            </div>
+                        </md-list-item>
+                </md-content>
+
+                <md-content flex layout="column" layout-align="space-between center" style="; border-bottom: 1px solid #e0e0e0;">
+                    <div flex style="  width: 100%">
+
+                        <md-list-item class="md-3-line" ng-repeat="item in userlist.msgListArr">
+                            <div class="md-list-item-text">
+                                <h3>{{ item.$value }}</h3>
+                            </div>
+                        </md-list-item>
+                    </div>
+                    <div style=" overflow:hidden; width:95%;" layout="row">
+                        <md-input-container flex>
+                            <label>Message</label>
+                            <input ng-model="userlist.msg" ><!--columns="1" md-maxlength="150"-->
+                        </md-input-container>
+                        <span layout="row">
+                            <div>&nbsp;</div>
+                            <md-button class="md-raised" ng-click="userlist.send()">Send</md-button>
+                        </span>
+                    </div>
+
+                </md-content>
+            </div>
+            <md-content>
+                <span flex></span>
+                <md-button class="md-raised md-warn" ng-click="userlist.Logout()">Logout</md-button>
+            </md-content>
+
+        </md-card>
+    </div>
+    <div flex>&nbsp;</div>
+
+</div>

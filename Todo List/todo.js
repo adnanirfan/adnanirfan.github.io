@@ -1,26 +1,47 @@
 /**
  * Created by Hasnain on 23-Apr-15.
  */
-angular.module('buttonsDemo1', ['ngMaterial'])
-    .controller('AppCtrl', function ($scope, $mdDialog) {
+var tempDes, tempDate;
+angular.module('buttonsDemo1', ['ngMaterial', 'firebase'])
+    .controller('AppCtrl', function ($rootScope, $scope, $mdDialog, $firebaseArray) {
+
+        var ref = new Firebase("https://findingnemo.firebaseio.com/messages");
+        /*$scope.messages = $firebaseArray(ref);
+
+        $scope.addMessage = function() {
+            $scope.messages.$add({
+                text: $scope.newMessageText
+            });
+        };*/
+
         $scope.title1 = 'Button';
         $scope.title4 = 'Warn';
         $scope.isDisabled = true;
         $scope.googleUrl = 'http://google.com';
-        $scope.description = 'Write';
-        $scope.messages = [
-            {title: "Message A", selected: false},
-            {title: "Message B", selected: true},
-            {title: "Message C", selected: true}
+        $rootScope.date = new Date(2015, 4, 27);
+        $scope.des = 987456;
+        $rootScope.messages = [
+            {title: "Message A", selected: false, date: $rootScope.date},
+            {title: "Message B", selected: false, date: $rootScope.date},
+            {title: "Message C", selected: false, date: $rootScope.date}
         ];
-
+/*************************************************************************************************************/
         $scope.delete = function () {
-            for (var i = 0; i < $scope.messages.length; i++) {
-                if ($scope.messages[i].selected == true)
-                    $scope.messages.splice(i, 1);
+            for (var i = 0; i < $rootScope.messages.length; i++) {
+                if ($rootScope.messages[i].selected == true)
+                    $rootScope.messages.splice(i, 1);
             }
         }
-
+        $scope.$on('someEvent', function(event, data) {
+            console.log(tempDes + ' ' + tempDate)
+            $rootScope.messages.push({title: tempDes, selected: false});
+        });
+/*************************************************************************************************************/
+        /*$scope.add = function () {
+            $mdDialog.hide();
+            $rootScope.messages.push({title: $rootScope.description, selected: false});
+        }*/
+/*************************************************************************************************************/
         $scope.showAdvanced = function ($event) {
             $mdDialog.show({
                 controller: DialogController,
@@ -28,19 +49,22 @@ angular.module('buttonsDemo1', ['ngMaterial'])
                 targetEvent: $event
             })
                 .then(function (answer) {
-                    $scope.messages.push({title: $scope.description, selected: false});
+//                    console.log($rootScope.date);
+                    /*function firstCtrl($scope){
+                     $scope.$ o n('someEvent', function(event, data) { console.log(data); });
+                     }*/
+                    $scope.$emit('someEvent', [tempDes, tempDate]);
                     $scope.alert = 'You said the information was "' + answer + '".';
                 }, function () {
+                    /**************************************************When Escaped*********************************************/
                     $scope.alert = 'You cancelled the dialog.';
                 });
         };
-        $scope.add = function () {
-            $mdDialog.hide();
-            $scope.messages.push({title: $scope.description, selected: false});
-        }
     });
+/*************************************************************************************************************/
+function DialogController($rootScope, $scope, $mdDialog) {
 
-function DialogController($scope, $mdDialog) {
+
     $scope.hide = function () {
         $mdDialog.hide();
     };
@@ -48,6 +72,8 @@ function DialogController($scope, $mdDialog) {
         $mdDialog.cancel();
     };
     $scope.answer = function (answer) {
+        tempDes = $scope.description;
+        tempDate = $scope.ddate;
         $mdDialog.hide(answer);
     };
 }

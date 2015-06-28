@@ -9,7 +9,7 @@ angular.module('buttonsDemo1', ['ngMaterial'])
         $scope.isDisabled = true;
         $scope.googleUrl = 'http://google.com';
         $rootScope.date;
-        $rootScope.description = 987456;
+        $scope.description = 987456;
         $rootScope.messages = [
             {title: "Message A", selected: false, date: ''},
             {title: "Message B", selected: false, date: ''},
@@ -44,7 +44,7 @@ angular.module('buttonsDemo1', ['ngMaterial'])
                      }*/
 
 
-                    $scope.$emit('someEvent', $rootScope.description);
+                    $scope.$emit('someEvent', $scope.description);
 
                     console.log(typeof(tempDes + '  ' + 123564978));
                     $rootScope.messages.push({title: 123, selected: false});

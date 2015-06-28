@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>TodoApp</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bower_components/angular-material/angular-material.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <style>
+        .cssSlideUp {
+            transition: .5s linear all;
+            height: 80px;
+            overflow: hidden;
+        }
+
+        .cssSlideUp.ng-hide {
+            height: 0;
+        }
+
+        .cssFade {
+            transition: 0.5s linear all;
+            opacity: 1;
+        }
+
+        .cssFade.ng-hide {
+            opacity: 0;
+        }
+
+        .leftpadding {
+            padding-left: 20px;
+        }
+
+        .toppadding {
+            padding-top: 15px;
+        }
+        #logo-RB{
+            position: absolute;
+            left: 100px;
+            top: 0px;
+            border: transparent;
+            /*border-color: #aa3535;*/
+        }
+    </style>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-aria/angular-aria.js"></script>
+    <script src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../bower_components/angular-material/angular-material.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/angular-material-icons/0.4.0/angular-material-icons.min.js"></script>
+    <!-- Firebase -->
+    <script src="../bower_components/firebase/firebase.js"></script>
+    <!-- AngularFire -->
+    <script src="../bower_components/angularfire/dist/angularfire.js"></script>
+    <!--My JavaScript File-->
+    <script src="../TodoAppFirebase/main.js"></script>
+</head>
+
+<body ng-app="YourApp">
+
+
+<div class="md-container" layout="column" layout-align="center center" ng-init="check=true" style="">
+
+    <!--<div id="login" ng-controller="LoginController" class=""></div>-->
+
+    <div ng-controller="LoginController" ng-model="check" class="md-whiteframe-z3"
+         style="width: 40%; padding: 10px; border-radius: 20px">
+        <div ng-init="showAdvanced()"></div>
+        <fieldset ng-disabled="check">
+
+            <md-toolbar layout="row" layout-align="space-between center"
+                        style="border-top-left-radius: 15px; border-top-right-radius: 15px">
+                <div class="md-toolbar-tools" layout="row" >
+
+                    <h2 flex> Todo List </h2>
+                    <h5 style="color: #ffffff; margin-right: 10px">{{displayName | capitalize}}</h5>
+                    <!--<md-button class="md-raised"><span class="glyphicon glyphicon-log-out"></span>Logout</md-button>-->
+                    <!--<md-button class=" md-icon-button" title="Logout" aria-label="More">
+                        <md-icon class="glyphicon glyphicon-log-out">md-subhead</md-icon>
+                        Logout
+                    </md-button>-->
+                    <button type="button" class="btn btn-success btn-xs" ng-click="logout()">
+                        <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Logout
+                    </button>
+                </div>
+            </md-toolbar>
+
+            <div layout="row" layout-align="space-between center">
+
+                <md-input-container flex>
+                    <label>Search</label>
+                    <input name="search" ng-model="searchTodo">
+                </md-input-container>
+
+                <span>
+                    <md-button flex class="md-raised md-primary" ng-click="checkAddCheck()"> Add</md-button>
+                    <!--<md-button flex class="md-raised md-warn" ng-click=""> Delete</md-button>-->
+                </span>
+            </div>
+
+
+            <div ng-controller="AddController" class="cssSlideUp cssFade" ng-show="addcheck" layout="row"
+                 layout-align="space-between center">
+
+                <md-input-container flex>
+                    <label>Enter your Details:</label>
+                    <input ng-model="task">
+                </md-input-container>
+
+                <md-button ng-click="addTask()">Save</md-button>
+            </div>
+
+            <!--/*************************************************************************************************************/-->
+            <div ng-controller="RemoveController" class="bg-info">
+                <!--<button ng-click="test()"></button>-->
+                <md-list>
+                    <md-list-item ng-repeat="item in List | filter: searchTodo" ng-dblclick="removeTask($index)" layout="row"
+                                  layout-align="space-around start">
+
+                        <!--<md-checkbox ng-disabled="check" aria-label ng-model="message.selected"></md-checkbox>-->
+                        <ng-md-icon icon="check_box" class="leftpadding toppadding"></ng-md-icon>
+                        <div layout="row" flex class="leftpadding" style="border: 1px none;">
+                            <!--<span flex="30" class="glyphicon glyphicon-ok-sign"></span>-->
+                            <h4 flex style="border: 1px none; padding-bottom: 0px; color: #5d5d5d">
+                                {{item.$value}}
+                            </h4>
+                        </div>
+                        <p class="divider"></p>
+
+                    </md-list-item>
+
+                </md-list>
+            </div>
+        </fieldset>
+        <div layout="row"  layout-align="space-between center">
+            <span flex> </span>
+            <div  id="logo" class="effect-up" style="" aria-disabled="true">
+                <span style="color: #636363; font-size: 12px; padding-bottom: 5px">Created by  </span>
+                <img src="../src/Logo2.png" width="120px" height="60px" alt=""/>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
