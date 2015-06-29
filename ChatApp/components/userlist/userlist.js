@@ -4,7 +4,7 @@
 var tempmsg = null;
 
 angular.module('app.userlist', ['app.login', 'firebase'])
-    .controller('UserlistController', ['$rootScope','$firebaseObject', '$firebaseArray', function ($rootScope, $firebaseObject, $firebaseArray) {
+    .controller('UserlistController', ['$rootScope','$firebaseObject', '$firebaseArray', '$location', function ($rootScope, $firebaseObject, $firebaseArray, $location) {
 
         var $scope = this;
 
@@ -25,18 +25,20 @@ angular.module('app.userlist', ['app.login', 'firebase'])
                 uid: globalVar.uid
             })
             */
-            refForUserList.update({
+            refForUser.update({
                 "isOnline": "false"
             });
-            localstorage.clear();
+            localStorage.clear();
             globalVar = null;
             $location.path('/')
             $location.replace();
             $location.path().replace();
+            location.reload();
         }
         $scope.send = function () {
             console.log($scope.msg);
             $scope.msgListArr.$add( $scope.msg);
+            $scope.msgListArrofSeconfUser.$add( $scope.msg);
             /*$scope.msgListArr.push({
                 msg: $scope.msg
             });*/
@@ -49,7 +51,9 @@ angular.module('app.userlist', ['app.login', 'firebase'])
             console.log('show msg list')
             console.log(thisItem.item.uid);
             var refForUserMsgList = new Firebase("https://chatapp0.firebaseio.com/users/" + globalVar.uid + "/messages/" + thisItem.item.uid);
+            var refForUserMsgListofSecondUser = new Firebase("https://chatapp0.firebaseio.com/users/" + thisItem.item.uid + "/messages/" + globalVar.uid);
             $scope.msgListArr = $firebaseArray(refForUserMsgList)
+            $scope.msgListArrofSeconfUser = $firebaseArray(refForUserMsgListofSecondUser)
 
 
         }
