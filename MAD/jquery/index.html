@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adnan Irfan</title>
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scrolable=no">
+        <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />-->
+
+        <link rel="stylesheet" href="http://nativedroid.godesign.ch/demo/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+        <!--<link rel="stylesheet" href="http://nativedroid.godesign.ch/demo/css/jquerymobile.nativedroid.css" />-->
+        <link rel="stylesheet" href="http://nativedroid.godesign.ch/demo/css/jquerymobile.nativedroid.dark.css" id='jQMnDTheme' />
+        <!--<link rel="stylesheet" href="http://nativedroid.godesign.ch/demo/css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />-->
+
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script>
+            $(document).on("click", ".show-page-loading-msg", function() {
+                var $this = $(this),
+                    theme = $this.jqmData("theme") || $.mobile.loader.prototype.options.theme,
+                    msgText = "Loading Events",
+                    textVisible = $this.jqmData("textvisible") || $.mobile.loader.prototype.options.textVisible,
+                    textonly = !!$this.jqmData("textonly"),
+                    html = $this.jqmData("html") || "";
+                $.mobile.loading("show", {
+                    text: msgText,
+                    textVisible: textVisible,
+                    theme: theme,
+                    textonly: textonly,
+                    html: html
+                });
+                setTimeout(function() {
+                    $.mobile.loading("hide");
+                    $("#eventregister").popup("open");
+                }, 1000);
+            });
+        </script>
+    </head>
+    <body>
+        <!-- Home page begins -->
+        <div data-role="page" id="home">
+            <div data-role="popup" id="eventregister" data-overlay-theme="b" data-theme="b" data-dismissible="false">
+                <div data-role="header" data-theme="a">
+                    <h1>Current Events</h1>
+                </div>
+                <div role="main" class="ui-content">
+                    <h3 class="ui-title">Sorry, currently there are no scheduled events.</h3>
+                    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Close</a>
+                </div>
+            </div>
+
+            <div data-role="header">
+                <a href="#home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-b ui-btn-icon-left ui-icon-home">Home</a>
+                <h1>Adnan Irfan!</h1>
+                <a href="#eventregister" data-position-to="window" data-transition="pop" class="ui-btn-right ui-btn-b ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-calendar show-page-loading-msg" data-textonly="false" data-textvisible="true" data-msgtext="" data-inline="true">Events</a>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#Education" data-transition="flip">Education</a></li>
+                        <li><a href="#Eperience" data-ajax="false">Eperience</a></li>
+                        <!--<li><a href="#catering">Catering</a></li>-->
+                    </ul>
+                </div><!-- /navbar -->
+            </div><!-- /header -->
+
+            <div data-role="panel" id="contactpanel" data-display="push" data-dismissible="true" data-theme="a">
+                <div>
+                    <p>Contact Me!</p>
+                    <a href="tel:0313-287-1873">0313-287-1873</a>
+                    <p>House # P-109</p>
+                    <p>Korangi 2-1/2, Karachi</p>
+                    <a href="mailto:adnanshurta@gmail.com">adnanshurta@gmail.com</a>
+                </div>
+            </div><!-- /panel -->
+
+            <div class="ui-content" role="main">
+                <p>
+                    Hi, my name is Adnan Irfan & I'm Web Developer. I am doing my graduation from Iqra University, and
+                    internship in Panacloud as a MEAN Stack Developer.
+                </p>
+            </div><!-- /content -->
+
+            <div data-role="footer">
+                <h2>
+                    <a href="#contactpanel" data-rel="panel" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-b ui-btn-icon-left ui-icon-phone">Contact Me</a>
+                </h2>
+            </div>
+        </div><!-- /page -->
+        <!-- Home page ends -->
+
+        <!-- Education page begins -->
+        <div data-role="page" id="Education">
+            <div data-role="popup" id="eventregister2" data-overlay-theme="b" data-theme="b" data-dismissible="false">
+                <div data-role="header" data-theme="a">
+                    <h1>Current Events</h1>
+                </div>
+                <div role="main" class="ui-content">
+                    <h3 class="ui-title">Sorry, currently there are no scheduled events.</h3>
+                    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Close</a>
+                </div>
+            </div>
+
+            <div data-role="header">
+                <a href="#home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-b ui-btn-icon-left ui-icon-home">Home</a>
+                <h1>Adnan Irfan</h1>
+                <a href="#eventregister2" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn-right ui-btn-b ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-calendar">Events</a>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#Education">Education</a></li>
+                        <li><a href="#Eperience" data-ajax="false">Eperience</a></li>
+                                                <!--<li><a href="#catering">Catering</a></li>-->
+                    </ul>
+                </div><!-- /navbar -->
+            </div><!-- /header -->
+
+            <div data-role="panel" id="contactpanel" data-display="push" data-dismissible="true" data-theme="a">
+                <div>
+                    <p>Contact Me!</p>
+                    <a href="tel:0313-287-1873">0313-287-1873</a>
+                    <p>House # P-109</p>
+                    <p>Korangi 2-1/2, Karachi</p>
+                    <a href="mailto:adnanshurta@gmail.com">adnanshurta@gmail.com</a>
+                </div>
+            </div><!-- /panel -->
+
+            <div class="ui-content" role="main">
+                <h2>Iqra University</h2>
+                <p>Bachelor of Computer Science</p>
+                <p>2013-Present</p>
+                <h2>Aisha Bawany College</h2>
+                <p>HSC</p>
+                <p>2010-2012</p>
+                <h2>Guards Public School</h2>
+                <p>SSC</p>
+                <p>2004-2010</p>
+
+            </div><!-- /content -->
+
+            <div data-role="footer">
+                <h2>
+                    <a href="#contactpanel" data-rel="panel" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-b ui-btn-icon-left ui-icon-phone">Contact Me</a>
+                </h2>
+            </div>
+        </div><!-- /page -->
+        <!-- Education page ends -->
+
+        <!-- Eperience page beigns-->
+        <div data-role="page" id="Eperience">
+            <div data-role="popup" id="eventregister3" data-overlay-theme="b" data-theme="b" data-dismissible="false">
+                <div data-role="header" data-theme="a">
+                    <h1>Current Events</h1>
+                </div>
+                <div role="main" class="ui-content">
+                    <h3 class="ui-title">Sorry, currently there are no scheduled events.</h3>
+                    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Close</a>
+                </div>
+            </div>
+
+            <div data-role="header">
+                <a href="#home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-b ui-btn-icon-left ui-icon-home">Home</a>
+                <h1>Adnan Irfan</h1>
+                <a href="#eventregister3" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn-right ui-btn-b ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-calendar">Events</a>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#Education">Education</a></li>
+                        <li><a href="#Eperience" data-ajax="false">Eperience</a></li>
+                                                <!--<li><a href="#catering">Catering</a></li>-->
+                    </ul>
+                </div><!-- /navbar -->
+            </div><!-- /header -->
+
+            <div data-role="panel" id="contactpanel" data-display="push" data-dismissible="true" data-theme="a">
+                <div>
+                    <p>Contact Me!</p>
+                    <a href="tel:0313-287-1873">0313-287-1873</a>
+                    <p>House # P-109</p>
+                    <p>Korangi 2-1/2, Karachi</p>
+                    <a href="mailto:adnanshurta@gmail.com">adnanshurta@gmail.com</a>
+                </div>
+            </div><!-- /panel -->
+
+            <div class="ui-content" role="main">
+                <h2>Panacloud</h2>
+                <p>MEAN Stack Developer</p>
+                <p>June 2015-Present</p>
+
+            </div><!-- /content -->
+
+            <div data-role="footer">
+                <h2>
+                    <a href="#contactpanel" data-rel="panel" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-b ui-btn-icon-left ui-icon-phone">Contact Me</a>
+                </h2>
+            </div>
+        </div><!-- /page -->
+        <!-- Eperience page ends -->
+
+        <!-- Catering page begins -->
+        <div data-role="page" id="catering">
+            <div data-role="popup" id="eventregister4" data-overlay-theme="b" data-theme="b" data-dismissible="false">
+                <div data-role="header" data-theme="a">
+                    <h1>Current Events</h1>
+                </div>
+                <div role="main" class="ui-content">
+                    <h3 class="ui-title">Sorry, currently there are no scheduled events.</h3>
+                    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Close</a>
+                </div>
+            </div>
+
+            <div data-role="header">
+                <a href="#home" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-b ui-btn-icon-left ui-icon-home">Home</a>
+                <h1>Adnan Irfan</h1>
+                <a href="#eventregister4" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn-right ui-btn-b ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-calendar">Events</a>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#Education">Education</a></li>
+                        <li><a href="#Eperience" data-ajax="false">Eperience</a></li>
+                                                <!--<li><a href="#catering">Catering</a></li>-->
+                    </ul>
+                </div><!-- /navbar -->
+            </div><!-- /header -->
+
+            <div data-role="panel" id="contactpanel" data-display="push" data-dismissible="true" data-theme="a">
+                <div>
+                    <p>Contact Me!</p>
+                    <a href="tel:0313-287-1873">0313-287-1873</a>
+                    <p>House # P-109</p>
+                    <p>Korangi 2-1/2, Karachi</p>
+                    <a href="mailto:adnanshurta@gmail.com">adnanshurta@gmail.com</a>
+                </div>
+            </div><!-- /panel -->
+
+            <div class="ui-content" role="main">
+                <p>
+                    We offer a full catering service for your events. Our three star Michelin Chef and his staff can tackle almost any cuisine you may need for your guests.<br />Contact Me for a full menu and prices.
+                </p>
+            </div><!-- /content -->
+
+            <div data-role="footer">
+                <h2>
+                    <a href="#contactpanel" data-rel="panel" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-b ui-btn-icon-left ui-icon-phone">Contact Me</a>
+                </h2>
+            </div>
+        </div><!-- /page -->
+        <!-- Catering page ends -->
+        <script>
+            $(body).bind("swipeleft swiperight",function(event)
+            {
+                var curPage = $.mobile.activePage[0];
+                var direction = event.type;
+                if(curPage.id == "home" && direction == "swipeleft")
+                    $.mobile.changePage("#Education");
+                if(curPage.id == "Education" && direction == "swiperight")
+                    $.mobile.changePage("#home");
+            });
+        </script>
+    </body>
+</html>
